@@ -1,0 +1,31 @@
+body {
+    background: url('../meta/graphs002.jpg');
+    background-size: auto;
+    -webkit-background-size: auto;
+    padding-top: 15%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+
+div.errordocument-box {
+    border-radius: 3px;
+    /*box-shadow: 10px 10px 5px grey;*/
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.15);
+    background: rgba(249,249,250,0.9);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+}
+
+div.errordocument-box-header {
+    margin-top:10px;
+    margin-bottom:30px;
+    font-size: 120px;
+}
+
+div.errordocument-box-explanation {
+    margin-top:10px;
+    margin-bottom:30px;
+    font-size: 25px;
+}

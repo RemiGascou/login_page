@@ -1,0 +1,5 @@
+ErrorDocument 403 /errordocuments/403.php
+ErrorDocument 404 /errordocuments/404.php
+
+RewriteEngine On
+RewriteRule ^(.*)$ index.php [QSA,L]
