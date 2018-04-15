@@ -1,0 +1,74 @@
+body {
+    background: url('../meta/graphs001.png');
+    background-size: auto;
+    -webkit-background-size: auto;
+    padding-top: 15%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+
+div.login-box {
+    border-radius: 3px;
+    /*box-shadow: 10px 10px 5px grey;*/
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.15);
+    background: rgba(249,249,250,0.9);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 230px;
+}
+
+div.login-box-title {
+    margin:10px;
+    font-size: 25px;
+}
+
+input.field {
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: left;
+    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+
+input.field:hover {
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: left;
+    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(33, 150, 245, 1), 0 0 4px rgba(33, 150, 245, 0.5);
+    transition: all 200ms ease-out;
+}
+
+input.submit-button {
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: center;
+    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+
+input.submit-button:hover {
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: center;
+    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(33, 150, 245, 1), 0 0 4px rgba(33, 150, 245, 0.5);
+    transition: all 200ms ease-out;
+}
+
+div.field-header {
+    margin-top:5px;
+    margin-bottom:0px;
+    text-align: center;
+}
